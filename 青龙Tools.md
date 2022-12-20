@@ -9,7 +9,9 @@
 <p><a href="https://github.com/nuanxinqing123/QLTools#%E6%BC%94%E7%A4%BA%E5%9B%BE">查看演示图</a></p>
  
 # 青龙Tools 正式版【V2.2】
+
 ----------------------------------------
+
 更新说明：
 
 Tips：如果无法自动创建config文件，请下载config.zip解压到程序同目录
@@ -17,7 +19,9 @@ Tips：如果无法自动创建config文件，请下载config.zip解压到程序
 2、修复 插件创建流程错误
 3、新增 合并模式换行符分割
 4、优化 前端描述文档修改
+
 ----------------------------------------
+
 安装：
 Tips：中国大陆服务器热更新需要配置Github代理，否则必失败
 Tips：删除config目录里面的app.db文件就相当于重装青龙Tools
@@ -72,6 +76,7 @@ docker restart QLTools
 ----------------------------------------
 
 Github代理站：
+
 https://ghproxy.com
 
 https://toolwa.com/github
