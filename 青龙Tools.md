@@ -51,17 +51,27 @@ docker restart QLTools
 
 
 ## 后台信息：
-登录地址：IP或域名:15000/#/login
-注册地址：IP或域名:15000/#/register
-后台地址：IP或域名:15000/#/admin
+- 登录地址：IP或域名:15000/#/login
+- 注册地址：IP或域名:15000/#/register
+- 后台地址：IP或域名:15000/#/admin
+
 ----------------------------------------
+
 仓库地址：https://github.com/nuanxinqing123/QLTools
+
 开发计划：https://web.banlikanban.com/kanban/626f9b4c6ade1220282ac551
+
 提交Bug：https://github.com/nuanxinqing123/QLTools/issues
+
 插件库：http://plugin.6b7.org
+
 插件开发文档：https://github.com/nuanxinqing123/QLTools/blob/master/Plugin.md
+
 进程守护&反代：https://6b7.org/460.html
+
 ----------------------------------------
+
 Github代理站：
 https://ghproxy.com
+
 https://toolwa.com/github
