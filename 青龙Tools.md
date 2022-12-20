@@ -1,7 +1,14 @@
-青龙Tools 正式版【V2.2】
-----------------------------------------
-提问题的艺术：
-出现解决不了的错误，第一步先查看运行日志。如果根据日志错误提示依然无法结论。那么请带上日志错误截图咨询水友。再解决不了，请在TG带上日志询问作者。仓库提交issues时不推荐携带日志文件
+<!--suppress HtmlDeprecatedAttribute -->
+<p align="center">
+  <a href="https://github.com/whyour/qinglong">
+    <img width="150" src="https://z3.ax1x.com/2021/11/18/I7MpAe.png" alt="Img">
+  </a>
+</p>
+
+<h1 align="center">青龙Tools</h1>
+<p><a href="https://github.com/nuanxinqing123/QLTools#%E6%BC%94%E7%A4%BA%E5%9B%BE">查看演示图</a></p>
+
+# 青龙Tools 正式版【V2.2】
 ----------------------------------------
 更新说明：
 
@@ -22,11 +29,13 @@ Tips：删除config目录里面的app.db文件就相当于重装青龙Tools
 方式二、Docker
 
 # 创建QLTools目录并进入
+```shell
 mkdir qltools && cd qltools
-
+```
 # Docker版本提供架构：amd64、arm64、arm-7
+```shell
 docker run --restart=always -itd --name QLTools -v $PWD/config:/QLTools/config -v $PWD/plugin:/QLTools/plugin -p 15000:15000 nuanxinqing123/qltools:latest
-
+```
 # 注意事项：Docker部署将从v1.7正式版全面支持热更新（v1.6以及以前版本需要手动升级）
 # 更新步骤：后台点击更新，稍等5分钟左右。手动重启容器即可完成更新（如果更新失败，请删除容器和镜像，然后重新拉取镜像启动）
 # 更新镜像：docker pull nuanxinqing123/qltools:latest
