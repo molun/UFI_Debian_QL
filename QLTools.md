@@ -49,23 +49,7 @@ Tips:
 - 测试版不提供Docker镜像 
 - 删除config目录里面的app.db文件就相当于重装青龙Tools
 
-安装方式一：Supervisord & PM2 & nohup 启动守护
-```shell
-# 创建目录并进入
-mkdir QLTools && cd QLTools
-
-# 给予权限
-chmod 755 程序名称
-
-# 启动程序排查启动错误
-./程序名称
-
-# 程序无误后点击下方教程查看程序后台守护教程
-```
-
-教程地址：[青龙Tools的后台进程守护教程（附反代域名）](https://6b7.org/460.html)
-
-安装方式二、Docker启动
+安装方式、Docker启动
 ```shell
 # 创建QLTools目录并进入
 mkdir qltools && cd qltools
@@ -77,9 +61,6 @@ docker run --restart=always -itd --name QLTools -v $PWD/config:/QLTools/config -
 # 重启命令：docker restart QLTools
 ```
 
-## 🎯开发计划
-
-开发计划 & 进度：[点击查看](https://web.banlikanban.com/kanban/626f9b4c6ade1220282ac551)
 
 【联系方式】
 
@@ -100,30 +81,6 @@ Email：nuanxinqing@gmail.com
 - 新增 合并模式换行符分割
 - 优化 前端描述文档修改
 
-## 📔自行构建步骤
-```shell
-# 项目开发环境：Golang 1.19
-# Clone 项目并进入项目目录
-git clone https://github.com/nuanxinqing123/QLTools.git && cd QLTools
-
-# 更新项目依赖
-go mod tidy
-
-# 打包
-go build
-
--------------------------------------------------------------
-
-# XGO 批量打包
-xgo -out QLTools --targets=windows/*,linux/* 青龙Tools代码路径
-# 举例
-xgo -out QLTools --targets=windows/*,linux/* /home/Go/QLTools
-
--------------------------------------------------------------
-
-# 自行编写的构建前端静态文件（需要安装go-bindata）
-go-bindata -o=bindata/bindata.go -pkg=bindata ./assets/...
-```
 
 ## 💰Pro版本
 如果 青龙Tools 无法满足你的需求，那么不妨看看它的 Pro 版本
