@@ -49,7 +49,7 @@ Tips:
 - 测试版不提供Docker镜像 
 - 删除config目录里面的app.db文件就相当于重装青龙Tools
 
-安装方式、Docker启动
+安装方式：Docker启动
 ```shell
 # 创建QLTools目录并进入
 mkdir qltools && cd qltools
