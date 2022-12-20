@@ -49,9 +49,8 @@ docker pull nuanxinqing123/qltools:latest
 docker restart QLTools
 ```
 
-----------------------------------------
-后台信息：
-```shell
+
+## 后台信息：
 登录地址：IP或域名:15000/#/login
 注册地址：IP或域名:15000/#/register
 后台地址：IP或域名:15000/#/admin
@@ -66,4 +65,3 @@ docker restart QLTools
 Github代理站：
 https://ghproxy.com
 https://toolwa.com/github
-```
